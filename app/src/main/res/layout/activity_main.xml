@@ -11,9 +11,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginBottom="26dp"
-        android:clickable="true" />
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:src="@drawable/ic_action_new_list_entry"
+        />
 
     <ListView
         android:id="@+id/activity_main_list_view"
