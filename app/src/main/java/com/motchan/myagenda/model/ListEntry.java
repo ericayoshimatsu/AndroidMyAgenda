@@ -1,5 +1,7 @@
 package com.motchan.myagenda.model;
 
+import androidx.annotation.NonNull;
+
 public class ListEntry {
 
     private final String name;
@@ -12,15 +14,9 @@ public class ListEntry {
         this.email = email;
     }
 
-    public String getName() {
+    @NonNull
+    @Override
+    public String toString() {
         return name;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public String getEmail() {
-        return email;
     }
 }
